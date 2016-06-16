@@ -1,5 +1,5 @@
 # JiraTaskCreator
-JiraTaskCreator is a WebApplication which helps creates Jira tasks, stories, tests.
+JiraTaskCreator is a WebApplication which helps to create Jira tasks, stories, tests.
 
 URLs : 
       
