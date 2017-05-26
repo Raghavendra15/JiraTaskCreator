@@ -31,7 +31,7 @@ public class Jira {
     public static void main(String[] args) throws IOException, InterruptedException {
         Jira jira = new Jira("BICS", "Test", "Test creation 10000884", "raghavendra.s.s.s@oracle.com", "Demo", "4");
         ProcessBuilder ps = new ProcessBuilder("java", "-jar", "C:\\Users\\raghss.ORADEV\\jiraintegration.jar", "create", "-project", jira.project, "-issueType", jira.issueType, "-summary", jira.summary, "-assignee", jira.assignee, "-description", jira.description, "-priority", jira.priority);
-                /*"-project BICS (mandatory - always BICSQA, no parameter passed)",
+                /*"-project BICS (mandatory - always BICS, no parameter passed)",
                 "-issueType Task (pass parameter, epic, story, task, test)",
                 "-summary  Backlog:Test 12c SAC Installed and running OOTB(blank param by default, but mandatory entry req)",
                 "-assignee andrew.new@oracle.com", "(unassigned by default, otherwise pick owner from list)",
